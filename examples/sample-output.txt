@@ -1,0 +1,8 @@
+--- small diff, limit 50 ---
+app.py: +3 -1 = 4
+Total: +3 -1 = 4 lines (limit 50)
+PASS — under the limit.
+--- big diff, limit 50 ---
+big.py: +60 -0 = 60
+Total: +60 -0 = 60 lines (limit 50)
+FAIL — 60 lines is over the limit of 50.
